@@ -3,10 +3,12 @@ import AboutUs from './components/About-us';
 import Bianco from './components/Bianco';
 import Contact from './components/Contact';
 import Products from './components/Products';
+import theme from './themeConfig'
+import {ThemeProvider} from '@mui/material'
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Switch>
         <Route path='/' exact>
           <Redirect to='/bianco' />
@@ -24,7 +26,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-    </div>
+    </ThemeProvider>
   );
 }
 

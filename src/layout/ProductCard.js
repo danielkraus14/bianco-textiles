@@ -44,11 +44,11 @@ const useStyles = makeStyles({
   },
   cardStyle:{
     marginTop: '10px',
-    border: '2px solid #1769aa',
+    border: 'none',
     transition: 'all 0.3s ease-out',
     '&:hover':{
       border: '0px',
-      boxShadow: '0px 2px 4px #1769aa',
+      boxShadow: '1px 2px 4px #1769aa',
     }
   }
 })

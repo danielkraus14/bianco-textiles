@@ -11,6 +11,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 const useStyles = makeStyles(theme =>({
     main_container_styles:{
         position: 'relative',
+        overflow: 'hidden'
 
     },
     slider_container_styles:{
@@ -98,21 +99,21 @@ const SliderCarousel = ({controls=true, autoplay=true, speed=500, interval=5000}
     const img1={
             id: 'img1',
             name: "Cama #1",
-            description: "Frase relacionada a la habitación",
+            description: "Felicidad: Darle la vuelta a la almohada y seguir durmiendo",
             imgSrc: imgSlider1
             };
 
     const img2={
             id: 'img2',
             name: "Cama #2",
-            description: "Descanso o algo de eso",
+            description: "Siempre hay que tener un penúltimo sueño",
             imgSrc: imgSlider2
             };
     
     const img3={
             id: 'img3',
             name: "Living #1",
-            description: "Cortinas y almohadones",
+            description: "Los detalles no son sólo detalles. Ellos hacen el DISEÑO",
             imgSrc: imgSlider3
             };
     
